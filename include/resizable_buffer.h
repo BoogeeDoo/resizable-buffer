@@ -51,9 +51,9 @@ class ResizableBuffer {
   }
 
   inline void Realloc(size_t new_length) {
-    if (new_length == _real_length) {
+    if (new_length == _length) {
       return;
-    } else if (new_length < _real_length) {
+    } else if (new_length <= _real_length) {
       _length = new_length;
       _byte_length = _length * sizeof(T);
       return;
