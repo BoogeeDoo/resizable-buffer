@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "clang-format": "^1.6.0",
+    "cpplint.js": "^1.0.0"
+  }
+}
