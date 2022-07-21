@@ -9,8 +9,8 @@
 
 #define RESIZABLE_BUFFER_VERSION_MAJOR 1
 #define RESIZABLE_BUFFER_VERSION_MINOR 0
-#define RESIZABLE_BUFFER_VERSION_PATCH 0
-#define RESIZABLE_BUFFER_VERSION_STRING "1.0.0"
+#define RESIZABLE_BUFFER_VERSION_PATCH 1
+#define RESIZABLE_BUFFER_VERSION_STRING "1.0.1"
 
 // Refer: https://github.com/XadillaX/node-sfml/blob/main/src/resizable_buffer.h
 namespace rb {
